@@ -3,3 +3,18 @@
   background: url(../assets/images/background/op.jpg) ;
   background-size: cover;
 }
+
+.intro {
+  height: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 4px 4px whitesmoke;
+  letter-spacing: 4px;
+}

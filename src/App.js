@@ -1,6 +1,6 @@
-import { Col, Container, Row } from "react-bootstrap";
 import "./App.css";
 import NavigationBar from "./components/NavigationBar";
+import Intro from "./components/Intro";
 import "./style/LandingPage.css";
 
 function App() {
@@ -9,13 +9,7 @@ function App() {
       {/* intro section */}
       <div className="myBG">
         <NavigationBar />
-        <div>
-          <Container>
-            <Row>
-              <Col></Col>
-            </Row>
-          </Container>
-        </div>
+        <Intro />
       </div>
       {/* end of intro */}
     </div>
