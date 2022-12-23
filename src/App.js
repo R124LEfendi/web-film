@@ -1,6 +1,7 @@
 import "./App.css";
 import NavigationBar from "./components/NavigationBar";
 import Intro from "./components/Intro";
+import Trending from "./components/Trending";
 import "./style/LandingPage.css";
 
 function App() {
@@ -12,6 +13,12 @@ function App() {
         <Intro />
       </div>
       {/* end of intro */}
+
+      {/* trending */}
+      <div className="trending">
+        <Trending />
+      </div>
+      {/* trending end */}
     </div>
   );
 }

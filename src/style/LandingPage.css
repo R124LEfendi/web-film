@@ -5,7 +5,7 @@
 }
 
 .intro {
-  height: 30%;
+  height: 300px;
   display: flex;
   justify-content: end;
   align-items: end;
@@ -17,4 +17,15 @@
   line-height: 1;
   text-shadow: 4px 4px whitesmoke;
   letter-spacing: 4px;
+}
+
+.trending {
+  height: 100vh;
+  background: url(../assets/images/background/Top.jpg) ;
+  background-size: cover;
+}
+
+.movieImage {
+  height: 200px;
+  width: 100px;
 }
