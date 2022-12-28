@@ -5,10 +5,10 @@ const NavigationBar = () => {
     <div>
       <Navbar variant="dark">
         <Container>
-          <Navbar.Brand>RIZAL FILMS</Navbar.Brand>
+          <Navbar.Brand className="navText">RIZAL FILMS</Navbar.Brand>
           <Nav>
-            <Nav.Link>TRENDING</Nav.Link>
-            <Nav.Link>SUPERHERO</Nav.Link>
+            <Nav.Link className="navText">TRENDING</Nav.Link>
+            <Nav.Link className="navText">SUPERHERO</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

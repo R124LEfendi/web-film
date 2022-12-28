@@ -3,7 +3,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 const Intro = () => {
   return (
     <div className="intro">
-      <Container className="text-gold text-center d-flex justify-content-center align-item-center ">
+      <Container className="text-dark text-center d-flex justify-content-center align-item-center ">
         <Row>
           <Col>
             <div className="title">Nonton gratis</div>

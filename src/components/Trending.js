@@ -1,22 +1,59 @@
 import { Card, Col, Container, Row, Image } from "react-bootstrap";
-import interImage from "../assets/images/trending/interstellar.jpg";
+import interImage from "../assets/images/trending/incepion.jpg";
 
 const Trending = () => {
   return (
     <div>
       <Container>
         <Row>
-          <Col className="movieImage">
-            <Card className=" text-dark text-center movieImage ">
+          <Col className="movieWrapper">
+            <Card className="bg-dark  movieImage ">
               <Image src={interImage} alt="Interstellar the movie " />
+              <div className="bg-dark">
+                <div className="p-2 m-1 text-white">
+                  <Card.Title className="text-center">Interstellar</Card.Title>
+                  <Card.Text className="text-left">
+                    This is a wider card with supporting
+                  </Card.Text>
+                  <Card.Text className="text-left">
+                    Last updated 3 mins ago
+                  </Card.Text>
+                </div>
+              </div>
+            </Card>
+          </Col>
 
-              <Card.Title>Interstellar</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-              <Card.Text>Last updated 3 mins ago</Card.Text>
+          <Col className="movieWrapper">
+            <Card className="bg-dark  movieImage ">
+              <Image src={interImage} alt="Interstellar the movie " />
+              <div className="bg-dark">
+                <div className="p-2 m-1 text-white">
+                  <Card.Title className="text-center">Interstellar</Card.Title>
+                  <Card.Text className="text-left">
+                    This is a wider card with supporting
+                  </Card.Text>
+                  <Card.Text className="text-left">
+                    Last updated 3 mins ago
+                  </Card.Text>
+                </div>
+              </div>
+            </Card>
+          </Col>
+
+          <Col className="movieWrapper">
+            <Card className="bg-dark  movieImage ">
+              <Image src={interImage} alt="Interstellar the movie " />
+              <div className="bg-dark">
+                <div className="p-2 m-1 text-white">
+                  <Card.Title className="text-center">Interstellar</Card.Title>
+                  <Card.Text className="text-left">
+                    This is a wider card with supporting
+                  </Card.Text>
+                  <Card.Text className="text-left">
+                    Last updated 3 mins ago
+                  </Card.Text>
+                </div>
+              </div>
             </Card>
           </Col>
         </Row>
