@@ -1,15 +1,20 @@
 .myBG {
   height: 100vh;
-  background: url(../assets/images/background/op.jpg) ;
+  background: url(../assets/images/background/Top.jpg) ;
   background-size: cover;
 }
 
+.nbText {
+  font-weight: 700;
+
+}
+
 .navText {
-  background-color: rgb(52, 35, 35);
+  background-color: rgb(0, 0, 0);
   border-radius: 15px;
-  color: aqua;
-  padding: 20px;
-  margin: 10px;
+  color: white;
+  padding: 2%;
+  margin: 1%;
 }
 
 .intro {
@@ -28,15 +33,29 @@
 }
 
 .trending {
-  height: 100vh;
-  background: url(../assets/images/background/Top.jpg) ;
+  height: auto;
+  background: url(../assets/images/background/op.jpg) ;
+  background-size: cover;
+}
+
+.superhero {
+  height: auto;
+  background: url(../assets/images/background/op.jpg) ;
   background-size: cover;
 }
 
 .movieImage {
   height: auto;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
 }
 
-.movieWrapper {
-width: 1%;
+.images {
+  height: 300px;
 }
+
+.imagesuper {
+  height: 500px;
+}
+
