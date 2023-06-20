@@ -8,7 +8,7 @@ const Superhero = () => {
     <div>
       <Container>
         <br />
-        <h1 className="text-white">SUPEREHERO MOVIES</h1>
+        <h1 className="text-white">SUPERHERO MOVIES</h1>
         <br />
         <Row>
           <Col md={4} className="movieWrapper" id="superhero">
